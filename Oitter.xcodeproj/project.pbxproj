@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C9C1F414AF4F6C003D0AA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C9C1F314AF4F6C003D0AA6 /* UIKit.framework */; };
+		09C9C1F614AF4F6C003D0AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C9C1F514AF4F6C003D0AA6 /* Foundation.framework */; };
+		09C9C1F814AF4F6C003D0AA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C9C1F714AF4F6C003D0AA6 /* CoreGraphics.framework */; };
+		09C9C1FE14AF4F6C003D0AA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C9C1FC14AF4F6C003D0AA6 /* InfoPlist.strings */; };
+		09C9C20014AF4F6C003D0AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9C1FF14AF4F6C003D0AA6 /* main.m */; };
+		09C9C20414AF4F6D003D0AA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9C20314AF4F6D003D0AA6 /* AppDelegate.m */; };
+		09C9C20714AF4F6D003D0AA6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C9C20514AF4F6D003D0AA6 /* MainStoryboard.storyboard */; };
+		09C9C20A14AF4F6D003D0AA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9C20914AF4F6D003D0AA6 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C9C1EF14AF4F6C003D0AA6 /* Oitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C9C1F314AF4F6C003D0AA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09C9C1F514AF4F6C003D0AA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09C9C1F714AF4F6C003D0AA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09C9C1FB14AF4F6C003D0AA6 /* Oitter-Info.plist */ = {isa = PBXFileReference; path = "Oitter-Info.plist"; sourceTree = "<group>"; };
+		09C9C1FD14AF4F6C003D0AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09C9C1FF14AF4F6C003D0AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C9C20114AF4F6D003D0AA6 /* Oitter-Prefix.pch */ = {isa = PBXFileReference; path = "Oitter-Prefix.pch"; sourceTree = "<group>"; };
+		09C9C20214AF4F6D003D0AA6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		09C9C20314AF4F6D003D0AA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09C9C20614AF4F6D003D0AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		09C9C20814AF4F6D003D0AA6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		09C9C20914AF4F6D003D0AA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C9C1EC14AF4F6C003D0AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C9C1F414AF4F6C003D0AA6 /* UIKit.framework in Frameworks */,
+				09C9C1F614AF4F6C003D0AA6 /* Foundation.framework in Frameworks */,
+				09C9C1F814AF4F6C003D0AA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C9C1E414AF4F6B003D0AA6 = {
+			isa = PBXGroup;
+			children = (
+				09C9C1F914AF4F6C003D0AA6 /* Oitter */,
+				09C9C1F214AF4F6C003D0AA6 /* Frameworks */,
+				09C9C1F014AF4F6C003D0AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C9C1F014AF4F6C003D0AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C9C1EF14AF4F6C003D0AA6 /* Oitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C9C1F214AF4F6C003D0AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C9C1F314AF4F6C003D0AA6 /* UIKit.framework */,
+				09C9C1F514AF4F6C003D0AA6 /* Foundation.framework */,
+				09C9C1F714AF4F6C003D0AA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09C9C1F914AF4F6C003D0AA6 /* Oitter */ = {
+			isa = PBXGroup;
+			children = (
+				09C9C20214AF4F6D003D0AA6 /* AppDelegate.h */,
+				09C9C20314AF4F6D003D0AA6 /* AppDelegate.m */,
+				09C9C20514AF4F6D003D0AA6 /* MainStoryboard.storyboard */,
+				09C9C20814AF4F6D003D0AA6 /* ViewController.h */,
+				09C9C20914AF4F6D003D0AA6 /* ViewController.m */,
+				09C9C1FA14AF4F6C003D0AA6 /* Supporting Files */,
+			);
+			path = Oitter;
+			sourceTree = "<group>";
+		};
+		09C9C1FA14AF4F6C003D0AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C9C1FB14AF4F6C003D0AA6 /* Oitter-Info.plist */,
+				09C9C1FC14AF4F6C003D0AA6 /* InfoPlist.strings */,
+				09C9C1FF14AF4F6C003D0AA6 /* main.m */,
+				09C9C20114AF4F6D003D0AA6 /* Oitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C9C1EE14AF4F6C003D0AA6 /* Oitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C9C20D14AF4F6D003D0AA6 /* Build configuration list for PBXNativeTarget "Oitter" */;
+			buildPhases = (
+				09C9C1EB14AF4F6C003D0AA6 /* Sources */,
+				09C9C1EC14AF4F6C003D0AA6 /* Frameworks */,
+				09C9C1ED14AF4F6C003D0AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oitter;
+			productName = Oitter;
+			productReference = 09C9C1EF14AF4F6C003D0AA6 /* Oitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C9C1E614AF4F6B003D0AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 09C9C1E914AF4F6B003D0AA6 /* Build configuration list for PBXProject "Oitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09C9C1E414AF4F6B003D0AA6;
+			productRefGroup = 09C9C1F014AF4F6C003D0AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C9C1EE14AF4F6C003D0AA6 /* Oitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C9C1ED14AF4F6C003D0AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C9C1FE14AF4F6C003D0AA6 /* InfoPlist.strings in Resources */,
+				09C9C20714AF4F6D003D0AA6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C9C1EB14AF4F6C003D0AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C9C20014AF4F6C003D0AA6 /* main.m in Sources */,
+				09C9C20414AF4F6D003D0AA6 /* AppDelegate.m in Sources */,
+				09C9C20A14AF4F6D003D0AA6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09C9C1FC14AF4F6C003D0AA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C9C1FD14AF4F6C003D0AA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09C9C20514AF4F6D003D0AA6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C9C20614AF4F6D003D0AA6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C9C20B14AF4F6D003D0AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09C9C20C14AF4F6D003D0AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C9C20E14AF4F6D003D0AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oitter/Oitter-Prefix.pch";
+				INFOPLIST_FILE = "Oitter/Oitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09C9C20F14AF4F6D003D0AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oitter/Oitter-Prefix.pch";
+				INFOPLIST_FILE = "Oitter/Oitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C9C1E914AF4F6B003D0AA6 /* Build configuration list for PBXProject "Oitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9C20B14AF4F6D003D0AA6 /* Debug */,
+				09C9C20C14AF4F6D003D0AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9C20D14AF4F6D003D0AA6 /* Build configuration list for PBXNativeTarget "Oitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9C20E14AF4F6D003D0AA6 /* Debug */,
+				09C9C20F14AF4F6D003D0AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C9C1E614AF4F6B003D0AA6 /* Project object */;
+}
