@@ -135,9 +135,9 @@ ACAccountStore *accountStore;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     selectedRow = indexPath;
-    [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
     [tableView beginUpdates];
     [tableView endUpdates];
+    [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
