@@ -10,14 +10,24 @@
 
 @implementation AppDelegate
 
+ACAccount *account;
+ACAccountStore *accountStore;
+
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *accountIdentifier = [defaults objectForKey:@"identifier"];
+    
+    accountStore = [[ACAccountStore alloc] init];
+    account = [accountStore accountWithIdentifier:accountIdentifier];
+    
+    // Add the tab bar controller's current view as a subview of the window
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

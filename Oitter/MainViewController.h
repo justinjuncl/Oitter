@@ -6,8 +6,9 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "ECSlidingViewController.h"
 
-@interface ViewController : UIViewController
+@interface MainViewController : ECSlidingViewController
 
 @end
