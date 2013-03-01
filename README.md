@@ -19,3 +19,7 @@ Twitter app for iOS
 ## License
 
 Oitter is distributed under the MIT License. Check the license file for full license text.
+
+## Support
+
+If you like this software and want to support the developer, you could donate via PayPal through his <a href="http://justinjuncl.tumblr.com">blog</a>. Every donation is very much appreciated.
