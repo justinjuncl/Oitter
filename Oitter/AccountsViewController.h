@@ -2,8 +2,8 @@
 //  AccountsViewController.h
 //  Oitter
 //
-//  Created by Jun on 2/11/13.
-//
+//  Created by Justin Jun on 2/11/13.
+//  Copyright (c) 2013 Justin Jun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  TimelineViewController.m
 //  Oitter
 //
-//  Created by Jun on 1/1/13.
-//
+//  Created by Justin Jun on 1/1/13.
+//  Copyright (c) 2013 Justin Jun. All rights reserved.
 //
 
 #import "TimelineViewController.h"
